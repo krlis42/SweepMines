@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    text-align: center;
+
+}
+.cell {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    background-color: blue;
+    font-size: 0;
+    font-weight: bold;
+    color: purple;
+
+}
+.cell:hover {
+    background-color: deepskyblue;
+}
+.row  {
+    position: absolute;
+    width: 468px;
+    height: 468px;
+    background-color: deepskyblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.opened {
+    font-size: 20px;
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.flag {
+    width: 50px;
+    height: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
